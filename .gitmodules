@@ -1,4 +1,3 @@
 [submodule "masarisupreme"]
-	branch = master
+	path = masarisupreme
 	url = https://github.com/masarisupreme/masarisupreme
-	ignore = all
