@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 //#endif
 
     // Log settings
-    Monero::Wallet::init(argv[0], "masari-wallet-gui");
+    Monero::Wallet::init(argv[0], "masarisupreme-wallet-gui");
 //    qInstallMessageHandler(messageHandler);
 
     MainApp app(argc, argv);
@@ -238,7 +238,7 @@ int main(int argc, char *argv[])
 
 
     if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/MasariSupreme/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Masarisupreme/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 
@@ -249,7 +249,7 @@ int main(int argc, char *argv[])
         accountName = qgetenv("USERNAME"); // Windows
     }
     if (accountName.isEmpty()) {
-        accountName = "My masari Account";
+        accountName = "My masarisupreme Account";
     }
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);
