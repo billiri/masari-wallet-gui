@@ -1,4 +1,8 @@
 [submodule "monero"]
 	path = monero
-	url = https://github.com/masarisupreme/masarisupreme.git
+	url = https://github.com/monero-project/monero
+[submodule "masarisupreme"]
+	path = masarisupreme
+	url = https://github.com/masarisupreme/masarisupreme
+        branch = master
 
