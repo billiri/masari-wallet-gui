@@ -8,7 +8,7 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $ROOT_DIR/utils.sh
 
 INSTALL_DIR=$ROOT_DIR/wallet
-MONERO_DIR=$ROOT_DIR/masarisupreme
+MONERO_DIR=$ROOT_DIR/monero
 BUILD_LIBWALLET=false
 
 # init and update monero submodule
