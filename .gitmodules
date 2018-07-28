@@ -1,3 +1,5 @@
 [submodule "monero"]
+	path = masarisupreme
 	url = https://github.com/masarisupreme/masarisupreme
 	branch = master
+	ignore = all
